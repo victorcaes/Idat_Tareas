@@ -1,0 +1,73 @@
+body{
+    background-color: grey;
+    
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, footer{
+    width: 1000px;
+    background: green;
+    margin: auto;
+    text-align: center;
+    height: 80px;
+
+}
+main{
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+h1{
+    color: white;
+}
+h2{
+    color: yellow;
+}
+#left{
+    float: left;
+    width: 200px;
+    margin-right: 10px;
+}
+#right{
+    float: right;
+    width: 200px;
+    margin-left: 10px;
+}
+p{
+    line-height: 1.6em;
+    font-size: 1em;
+    text-align: justify;
+
+}
+h3{
+    color: yellowgreen;
+    text-align: center;
+    font-size: 2em;
+
+}
+.bander{
+    text-align: center;
+   
+}
+nav{
+    padding-top: 1em;
+}
+nav li{
+    list-style: none;
+    color: white;
+    display: inline;
+    
+}
+nav a{
+    color: white;
+}
+span{
+    font-weight: bold;
+    color: red;
+}
+
