@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #24508c;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header,
+main,
+footer{
+    width: 992px;
+    margin: auto;
+}
+
+.menu-logo{
+    background: linear-gradient(to top  , #d3d3d3, white);
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.menu-nav{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+
+.menu-nav__item{
+    list-style: none;
+}
+.menu-nav__link{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    line-height: 60px;
+
+}
+
+.menu-nav__item:hover{
+    background-color: #006699;
+}
+
+.aside{
+    width: 250px;
+    float: left;
+    background-color: gray;
+    display: block;
+    min-height: 600px;
+}
+.aside-navBar{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.aside-navBar__item{
+    list-style: none;
+}
+.aside-navBar__link{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin: 5px 0;
+    border-radius: 10px;
+
+    
+}
+.article{
+    width: calc(992px - 250px);
+    display: block;
+    float: right;
+    background-color: #e4e1e1;
+    padding: 10px;
+    min-height: 600px;
+}
+.article p{
+    font-size: 20px;
+}
+.article__title{
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+}
+.article__img{
+    float: left;
+    margin-right: 10px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.footer p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* submenues*/
+.submenu{
+    display: none;
+    position: absolute;
+    background-color: black;
+
+}
+.submenu li{
+    list-style: none;
+}
+.submenu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    font-size: 18px;
+}
+.submenu li a:hover{
+   background-color: #006699;
+}
+.menu-nav__item:hover ul{
+    display: block;
+}
+
