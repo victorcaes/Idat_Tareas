@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: Tahoma;
+    background: darkgray;
+}
+header{
+    background: darkblue;
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+h1{
+    color: white;
+    float: left;
+}
+#redes{
+    float: right;
+}
+nav{
+    width: 1000px;
+    margin: auto;
+    background-color: black;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+}
+nav a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    background-color: darkblue;
+    color: yellow;
+}
+
+section{
+    width: 1000px;
+    background: orange;
+    margin: auto;
+    overflow: hidden;
+    padding: 10px;
+}
+article{
+    width: 600px;
+    float: left;
+}
+aside{
+    width: 350px;
+    float: right;
+}
+p{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+footer{
+    width: 1000px;
+    background: black;
+    padding: 10px;
+    margin: auto;
+    
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
