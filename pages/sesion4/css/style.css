@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #878585;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+main,
+footer{
+    width: 992px;
+    margin: auto;
+}
+
+.header-menu{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.footer-paragraph{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px ;
+}
+
+.header-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.header-redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-redes__link{
+    margin: 0 10px;
+}
+
+.header-nav{
+    background: red;
+}
+
+.header-navBar{
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+.header-navBar__item{
+    list-style: none;
+}
+.header-navBar__link{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.header-navBar__link:hover{
+    background-color: black;
+}
+
+
+.header-banner{
+    border: solid 5px white;
+}
+
+.articles{
+    width: 700px;
+    float: left;
+    overflow: hidden;
+    background-color: #a7999a;
+
+}
+
+.article__title{
+    color: #6b5859;
+    font-size: xx-large;
+    padding: 10px;
+    border-bottom: 2px solid red;
+}
+.article__img{
+    float: left;
+    margin: 10px;
+    
+}
+.article__paragraph{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+
+.aside{
+    float: right;
+    width: calc(100% - 710px);
+    overflow: hidden;
+}
+.aside__description{
+    text-align: justify;
+    padding: 10px;
+    font-size: small;
+}
+
+.aside__title{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    
+}
+
+footer p{
+    background-color: #2e2a2b;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px 0;
+    font-style: italic;
+}
+
