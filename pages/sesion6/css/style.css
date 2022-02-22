@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #56753d;
+}
+
+header,
+main,
+footer{
+    width: 992px;
+    margin: auto;
+}
+
+/*-----header-----------*/
+.header-banner{
+    background-color: #4c3518;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__title{
+    color: white;
+}
+.logo{
+    padding-left: 30px;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.botones__link{
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+
+}
+.boton-a{
+    background-color: green;
+}
+.boton-b{
+    background-color: blue;
+}
+.boton-c{
+    background-color: red;
+}
+
+.header-nav{
+    background-color: #0033ff;
+    
+}
+.header-navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+    
+}
+.header-navBar__item{
+    list-style: none;
+}
+.header-navBar__link{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    line-height: 60px;
+
+    
+}
+.header-navBar__link:hover{
+    background-color: black;
+    color: yellow;
+    
+
+    
+}
+
+/*------------main-------------*/
+.container{
+    background-color: #6cc0c8;
+    padding: 10px;
+}
+
+.article__title{
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+}
+
+.article__paragraph{
+    line-height: 1.5;
+    font-family: tahoma;
+    
+    color: #625B5B;
+}
+.aviso{
+    background-color:  #8b5a12;
+    padding: 10px;
+    overflow: hidden;
+    
+}
+.aviso__title{
+    color: #4c3518;
+    font-size: 30px;
+    
+
+}
+.aviso__nino{
+    float: right;
+}
+
+.aviso p{
+    color: white;
+    line-height: 1.5;
+    float: left;
+    width: calc(100% - 100px - 10px);
+    text-align: justify;
+}
+
+
+/*-----footer---------*/
+.footer{
+    background-color: #4c3518;
+    color: white;
+    padding: 20px;
+
+}
+.footer-navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer p{
+    color: white;
+    text-align: center;
+}
+
+.footer-navBar__item{
+    list-style: none;
+}
+
+.footer-navBar__link{
+    text-decoration: none;
+    color: yellow;
+
+
+}
