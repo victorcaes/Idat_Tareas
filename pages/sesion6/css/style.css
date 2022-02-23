@@ -106,10 +106,10 @@ footer{
     text-align: center;
 }
 
-.article__paragraph{
+.article__paragraph,
+.aside__paragraph{
     line-height: 1.5;
     font-family: tahoma;
-    
     color: #625B5B;
 }
 .aviso{
@@ -162,5 +162,87 @@ footer{
     text-decoration: none;
     color: yellow;
 
+
+}
+
+
+/*second page*/
+.container2{
+    background-color: #6cc0c8;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    padding: 10px;
+
+}
+
+.aside__img{
+    border-radius: 50%;
+}
+.aside__nino{
+    text-align: center;
+
+}
+
+.aside__lista,
+.aside__title{
+    line-height: 1.5;
+    font-family: tahoma;
+    color: #625B5B;
+
+}
+
+/*3ra page servicios html*/
+
+main{
+    background-color: #6cc0c8;
+}
+
+.container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+
+}
+.servicios__title{
+    text-align: center;
+    color: blue;  
+}
+
+.servicios__paragraph{
+    line-height: 1.5;
+    font-family: tahoma;
+    color: #625B5B;
+}
+
+.container3 div{
+    line-height: 1.5;
+    font-family: tahoma;
+    color: #625B5B;
+}
+.card__title{
+    font-weight: bold;
+}
+
+.container3,
+.servicios{
+    padding: 10px;
+}
+
+
+/*-----4ta vista contactanos html*/
+
+table tr td,
+table{
+    border: solid 2px #005599;
+    margin: auto;
+}
+table tr td{
+    padding: 10px;
+}
+
+.horario{
+    font-family: tahoma;
+    color: #625B5B;
 
 }
