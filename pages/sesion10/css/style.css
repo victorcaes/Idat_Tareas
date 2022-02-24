@@ -1,0 +1,108 @@
+:root{
+    --color-primary: #24282b;
+    --color-secundary: #1293d4;
+    --color-btn: #e8491d;
+}
+
+
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: arial, tahoma;
+}
+
+/*----header----*/
+.header{
+    background: var(--color-primary);
+    
+}
+
+.header-nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: solid 5px var(--color-secundary);
+    
+    
+
+}
+.header-logo{
+    line-height: 80px;
+    color: white;
+}
+
+.header-navBar{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.header-navBar__link{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    line-height: 80px;
+    color: white;
+}
+
+/*---sub header---*/
+.banner-img{
+    background: url("../img/cabecera.jpg");
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#boletin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    line-height: 80px;
+    color: white;
+    font-size: 25px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: var(--color-btn);
+    color: white;
+}
+input{
+    padding: 10px 20px 10px 0;
+    width: 300px;
+}
+
+/*---main---*/
+#tec{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    
+}
+.tec__card{
+    text-align: center;
+    margin: 20px 10px;
+}
+.tec__card img{
+    width: 100px;
+}
+/*footer*/
+footer{
+    background-color: var(--color-secundary);
+    color: white;
+    text-align: center;
+    line-height: 80px;
+}
+
+/*modificaciones*/
+.active{
+    color: var(--color-secundary);
+}
