@@ -2,6 +2,7 @@
     --color-primary: #24282b;
     --color-secundary: #1293d4;
     --color-btn: #e8491d;
+    --color-aside: #35424a;
 }
 
 
@@ -74,7 +75,7 @@ button{
     background-color: var(--color-btn);
     color: white;
 }
-input{
+.input-prin{
     padding: 10px 20px 10px 0;
     width: 300px;
 }
@@ -105,4 +106,55 @@ footer{
 /*modificaciones*/
 .active{
     color: var(--color-secundary);
+}
+
+/*vista nosotors*/
+main section{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    width: 80%;
+    margin: 20px auto;
+
+}
+main section p{
+    margin-top: 10px;
+}
+main section img{
+    margin-top: 10px;
+}
+
+.nosotros p:nth-child(3){
+    background-color: var(--color-aside);
+    padding: 10px;
+    color: white;
+}
+
+main aside{
+    background-color: var(--color-aside);
+    padding: 20px;
+    color: white;
+    height: fit-content;
+}
+
+/*vista servicios*/
+.servicio__card{
+    margin: 10px 0;
+    background-color: #e6e6e6;
+    padding: 20px;
+}
+
+/*vista contacto*/
+.contacto__input{
+    width: 100%;
+    border: 0.5px solid gray;
+    padding: 10px 20px 10px 5px;
+}
+.contacto__label{
+    display: block;
+    margin: 20px 0;
+}
+textarea{
+    width: 100%;
+    border: 0.5px solid gray;
 }
