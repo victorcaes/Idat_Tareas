@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        body{
+            background-color: #9a9595;
+            padding-top: 10px;
+            font-family: tahoma;
+            
+        }
+        form{
+            background-color: #b7ddf2;
+            width: 600px;
+            margin: auto;
+            padding: 10px 20px;
+        }
+        label{
+            display: block;
+            
+        }
+        .frm__title{
+            margin-bottom: 20px;
+
+        }
+        .frm__element{
+            padding-top: 10px;
+        }
+        button{
+            padding: 5px 10px;
+        }
+        input{
+            size: 60;
+        }
+
+
+    </style>
+</head>
+<body>
+    <main>
+        <form class="frm" action="">
+            <div class="frm__title">
+                <h1>FORMULARIO DE REGISTRO</h1>
+                <h3>Complete el registro con este Registro</h3>
+
+            </div>
+            
+            <hr>
+
+            <div class="frm__element">
+                <label>
+                    NOMBRES Y APELLIDOS
+                    <input type="text" placeholder="Ingrese datos completos" size="60" required />
+                </label>
+
+            </div>
+
+            <div class="frm__element">
+                <label>
+                    <div>DNI</div>
+                    <input type="text" placeholder="8 caracteres" size="60" disabled>
+                </label>
+
+            </div>
+
+            <div class="frm__element">
+                <label>
+                    <div>TELEFONO</div>
+                    <input type="number" size="60">
+                </label>
+
+            </div>
+
+            <div class="frm__element">
+                <p>ESTUDIOS REALIZADOS </p>
+                <label> 
+                    <input type="checkbox">
+                    Primaria
+                </label> 
+                <label>
+                    <input type="checkbox">
+                    Secundaria
+                </label> 
+                <label>
+                    <input type="checkbox">
+                    Tecnico
+                </label> 
+                <label>
+                    <input type="checkbox">
+                    Universitario
+                </label>
+
+            </div>
+
+            <div class="frm__element">
+                <p>ESTADO CIVL</p>
+                <label>
+                    <input type="radio" name="estado" checked>
+                    Soltero
+                </label>
+                <label>
+                    <input type="radio" name="estado" >
+                    Casado
+                </label>
+                <label>
+                    <input type="radio" name="estado" >
+                    Viudo
+                </label>
+                <label>
+                    <input type="radio" name="estado" >
+                    Divorciado
+                </label>
+
+            </div>  
+
+            <div class="frm__element">
+                <label for="ciudad">PROVINCIA</label>  
+                <input type="text"  id="ciudad">
+
+            </div>
+            <div class="frm__element">
+                <label for="correo">Correo Electronico </label>
+                <input type="gmail" size="60" id="correo">
+
+            </div>
+
+            <div class="frm__element">
+                <button>Enviar</button>
+                <button>Limpiar</button>
+
+            </div>
+            
+           
+
+
+
+        </form>
+    </main>
+    
+</body>
+</html>
