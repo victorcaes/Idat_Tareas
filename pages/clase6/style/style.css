@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto';
+    background: darkgray;
+
+}
+header{
+    width: 1000px;
+    background: black;
+    margin: auto;
+    overflow: hidden;
+    border-top-right-radius: 15px;
+
+}
+#logo img{
+    width: 250px;
+    float: left;
+}
+#redes{
+    float: right;
+    margin: 15px;
+    align-items: center;
+
+}
+#botonera{
+    width: 1000px;
+    margin: auto;
+    background: darkblue;
+    text-align: center;
+
+}
+
+#botonera ul{
+    list-style: none;
+}
+
+#botonera li{
+    display: inline-block;
+}
+#botonera a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px;
+}
+#botonera a:hover{
+    background: black;
+}
+
+main img{
+    width: 1000px;
+    display: block;
+    margin: auto;
+}
+
+section{
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    background-color: rgb(119, 114, 114);
+}
+article{
+    float: left;
+    width: 250px;
+}
+aside{
+    float: right;
+    width: 750px;
+}
+
+#botonera-v{
+    text-align: center;
+}
+#botonera-v ul{
+    list-style: none;
+}
+#botonera-v a{
+    background: black;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+#izquierda{
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+}
+footer{
+    width: 1000px;
+    background-color: black;
+    margin: auto;
+    border-bottom-left-radius: 20px ;
+    color: white;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+#botonera-p{
+    text-align: center;
+}
+#botonera-p ul{
+    list-style: none;
+}
+
+#botonera-p ul li {
+    display: inline;
+
+}
+#botonera-p a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+/*estilos para galeria*/
+.galeria{
+    width: 200px;
+    background-color: orange;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+}
+.galeria img{
+    width: 100%;
+}
+.galeria p{
+    text-align: center;
+}
+button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 0 none;
+    cursor: pointer;
+}
