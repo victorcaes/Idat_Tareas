@@ -11,7 +11,7 @@ body{
 header,
 main,
 footer{
-    width: 992px;
+    width: 80%;
     margin: auto;
 }
 
@@ -70,7 +70,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+    flex-wrap: wrap;
     
     
 }
@@ -83,6 +83,7 @@ footer{
     font-size: 20px;
     padding: 20px;
     line-height: 60px;
+    display: block;
 
     
 }
@@ -246,3 +247,32 @@ table tr td{
     color: #625B5B;
 
 }
+.card__img-service{
+    width: 100%;
+}
+
+iframe{
+    max-width: 100%;
+}
+
+/*rwd tablet*/
+@media (max-width: 650px) {
+    .header-banner{
+        display: flex;
+        flex-direction: column;
+    }
+    header,
+    main,
+    footer{
+        width: 98%;
+        font-size: 14px;
+    }
+    .container3{
+        gap: 5px;
+    }
+    
+  }
+
+    
+  
+
