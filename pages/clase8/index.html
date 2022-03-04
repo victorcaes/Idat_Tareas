@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canasta 2022</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: tahoma;
+            background: deeppink;        
+        }
+        .formulario{
+            background-color: purple;
+            width: 50%;
+            margin: 10px auto;
+            color: wheat;
+            padding: 10px;
+        }
+        h1{
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        input[type=text],
+        input[type=number],
+        input[type=email]{
+            width: 100%;
+            height: 35px;
+            margin: 10px 0px;
+        }
+        input[type=text]:focus,
+        input[type=number]:focus,
+        input[type=email]:focus{
+            outline: 0 none;
+        }
+        select{
+            width: 100%;
+            height: 35px;
+            margin: 10px 0px;
+        }
+        textarea{
+            width: 100%;
+            margin: 10px 0px;
+        }
+        input[type="submit"], input[type="reset"]{
+            background: black;        
+            padding: 15px;
+            color: white;
+            margin: 10px auto;
+            border: 0 none;
+            width: 200px;
+            cursor: pointer;
+        }
+        textarea:focus{
+            outline: 0 none;
+        }
+        /*mediaqueris para Tablets*/
+        @media only screen and (max-width: 980px){
+            body{
+                background: pink;
+            }
+            .formulario{
+                width: 80%;
+            }
+        }
+        /*mediaqueris para Celulares*/
+        @media only screen and (max-width: 480px){
+            body{
+                background: orange;
+            }
+            .formulario{
+                width: 98%;
+            }
+            input[type="submit"], input[type="reset"]{
+                width: 100%;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="formulario">
+        <h1>Sorteo de canasta 2022</h1>
+        <form action="">
+            <p>Apellidos</p>
+            <input type="text" placeholder="Ingresa tus Apellidos">
+            <br>
+            <p>Nombres</p>
+            <input type="text" placeholder="Ingresa tus notas">
+            <br>
+            <p>Direccion</p>
+            <input type="text" placeholder="Ingresa tu Dirección">
+            <p>Correo Electronico</p>
+            <input type="email" placeholder="Ingresa tu Correo Electrónico">
+            <br>
+            <p>Celular</p>
+            <input type="number" placeholder="Ingresa tu Celular">
+            <br>
+            <p>Distrito</p>
+            <select name="" id="">
+                <option value="">-----------</option>
+                <option value="">El Agustino</option>
+                <option value="">Barranco</option>
+                <option value="">Callao</option>
+                <option value="">Santan Anita</option>
+                <option value="">Jesus Maria</option>
+            </select>
+            <br>
+            <p>Sexo</p>
+            <input type="radio" name="sexo">Masculino
+            <input type="radio" name="sexo">Femenino
+            <br>
+            <br>
+            <p>Premios</p>
+            <input type="checkbox">Auto Toyota Yaris
+            <input type="checkbox">Moto Honda Yamaha
+            <input type="checkbox">Televisor de 60"
+            <br>
+            <br>
+            <p>Dejanos un Comentario</p>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <br>
+            <div align="center">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpiar">
+
+            </div>
+            
+            
+        </form>
+    </div>
+
+    
+</body>
+</html>
